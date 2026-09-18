@@ -1,0 +1,21 @@
+{
+  "name": "trackiq-amazon-monthly-business-review",
+  "version": "1.0.0",
+  "description": "TrackIQ: Amazon Monthly Business Review \u2014 an Agent Skill for Amazon sellers, built on TrackIQ MCP data.",
+  "author": {
+    "name": "TrackIQ",
+    "url": "https://trackiq.com"
+  },
+  "homepage": "https://trackiq.com/skills/trackiq-amazon-monthly-business-review",
+  "repository": "https://github.com/TrackIQ-HQ/trackiq-amazon-monthly-business-review",
+  "license": "MIT",
+  "keywords": [
+    "amazon",
+    "amazon-seller",
+    "claude-skill",
+    "agent-skills",
+    "mcp",
+    "trackiq",
+    "operations"
+  ]
+}

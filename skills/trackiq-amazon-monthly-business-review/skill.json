@@ -1,0 +1,38 @@
+{
+  "name": "trackiq-amazon-monthly-business-review",
+  "title": "TrackIQ: Amazon Monthly Business Review",
+  "category": "operations",
+  "version": "1.0.0",
+  "updated": "2026-09-18",
+  "summary": "Builds the month-end client deck for one Amazon brand \u2014 revenue and spend against the previous month and the same month last year, the organic and paid split, category and product mix, what moved and why, and a prioritised plan for next month. Checks that last year's ad data actually exists before drawing a year-on-year comparison. Use when the user asks for a monthly business review, MBR, month-e",
+  "changelog": "First public release.",
+  "requires": {
+    "mcp": [
+      "trackiq"
+    ],
+    "tools": [
+      "get_account_overview",
+      "get_campaigns",
+      "get_portfolios",
+      "get_product_categories_performance",
+      "get_product_performance",
+      "list_marketplaces"
+    ],
+    "filesystem": false,
+    "network": false,
+    "third_party_apis": []
+  },
+  "delivery": {
+    "methods": [
+      "in-chat",
+      "file",
+      "slack",
+      "n8n",
+      "email"
+    ],
+    "default": "in-chat",
+    "note": "in-chat always works and is the fallback. Outward sends confirm first."
+  },
+  "homepage": "https://trackiq.com/skills/trackiq-amazon-monthly-business-review",
+  "license": "MIT"
+}
