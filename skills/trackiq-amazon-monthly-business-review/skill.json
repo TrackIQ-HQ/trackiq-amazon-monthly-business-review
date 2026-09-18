@@ -4,7 +4,7 @@
   "category": "operations",
   "version": "1.0.0",
   "updated": "2026-09-18",
-  "summary": "Builds the month-end client deck for one Amazon brand \u2014 revenue and spend against the previous month and the same month last year, the organic and paid split, category and product mix, what moved and why, and a prioritised plan for next month. Checks that last year's ad data actually exists before drawing a year-on-year comparison. Use when the user asks for a monthly business review, MBR, month-e",
+  "summary": "Builds the month-end client deck for one Amazon brand \u2014 revenue and spend against the previous month and the same month last year, the organic and paid split, category and product mix, what moved and why, and a prioritised plan for next month. Checks that last year's ad data actually exists before drawing a year-on-year comparison.",
   "changelog": "First public release.",
   "requires": {
     "mcp": [
